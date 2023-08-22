@@ -1,5 +1,3 @@
-# Bash-Scripts
-
 A Bash script is a series of commands and instructions written in the Bash (Bourne Again Shell) programming language. Bash is a widely-used Unix shell and command-line interpreter that provides a powerful interface for interacting with the operating system and executing various tasks. Bash scripts allow you to automate repetitive tasks, perform system administration tasks, and create more complex operations by combining existing commands.
 
 Here's a description of what a Bash script is and how it works:
