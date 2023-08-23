@@ -2,9 +2,10 @@
 
 #Installing Packages and Dependencies 
 
-apt update
-apt install vsftpd
-apt install ufw
+apt update -y
+apt upgrade -y
+apt install vsftpd -y
+apt install ufw -y
 #Setting up FTP Service
 
 systemctl start vsftpd
