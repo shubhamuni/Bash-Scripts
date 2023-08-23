@@ -41,11 +41,11 @@ read folder
 
 
 #Adding below lines to smb.conf file 
-echo "[$folder]" > /etc/samba/smb.conf
-echo "path = $share" > /etc/samba/smb.conf
-echo "read only = no" > /etc/samba/smb.conf
-echo "guest ok = no" > /etc/samba/smb.conf
-echo "valid users = $user" > /etc/samba/smb.conf
+echo "[$folder]" >> /etc/samba/smb.conf
+echo "path = $share" >> /etc/samba/smb.conf
+echo "read only = no" >> /etc/samba/smb.conf
+echo "guest ok = no" >> /etc/samba/smb.conf
+echo "valid users = $user" >> /etc/samba/smb.conf
 
 
 #Setting up samba server and restarting
